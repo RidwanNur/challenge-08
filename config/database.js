@@ -20,7 +20,7 @@ module.exports = {
     password: DB_PASSWORD,
     database: `${DB_NAME}_test`,
     host: DB_HOST,
-    port: DB_PORT,
+    port: "5432",
     dialect: "postgres"
   },
   production: {
